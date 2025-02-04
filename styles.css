@@ -1,0 +1,119 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('/paisaje.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  .fondo {
+    position:relative;
+    background-size: cover;
+    width: 100%;
+  }
+  .container {
+    text-align: center;
+  }
+  .img {
+    width: 50%;
+    height: auto;
+    border-radius: 25%;
+  }
+  .letra {
+    top: 50%;
+    left: 50%;
+    backdrop-filter: blur(50px);
+    font-size: 60px;
+    color: white;
+  }
+  #corazon {    
+    position: absolute; 
+    top: 50%;  
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 50%; 
+    height:90%; 
+    z-index:3; 
+  }
+  #besos {
+    position: absolute; 
+    top: 2%;
+    left: 80%;
+    width: 20%;
+    height: auto;
+    z-index: 2;
+  }
+  #baile {
+    position: absolute; 
+    top: 0%;
+    left: 40%;
+    width: 20%;
+    height: auto;
+    z-index: 2;
+  }
+  #loved {
+    position: absolute; 
+    top: 2%;
+    left: 2%;
+    width: 20%;
+    height: auto;
+    z-index: 2;
+  }
+  #love {
+    position: absolute; 
+    top: 80%;
+    left: 2%;
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+    z-index: 2;
+  }
+  #chileno {
+    position: absolute; 
+    top: 80%;
+    left: 80%;
+    width: 20%;
+    height: auto;
+    z-index: 2;
+  }
+  #amo {
+    position: absolute; 
+    top: 80%;
+    left: 40%;
+    width: 20%;
+    height: auto;
+    z-index: 2;
+  }
+
+  .hidden {
+    display: none; 
+  }
+  
+  #mensajeDiv {
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+    border-radius: 25%;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 30px rgba(12, 8, 8, 0.5);
+  }
+  
+  button {
+    position: relative;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 25%;
+    background-color: #008CBA;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #005f73;
+  }
